@@ -2,8 +2,8 @@
 # Thresholding is the simplest method of image segmentation. It is a non-linear operation that
 # converts a gray-scale image into a binary image where the two levels are assigned to pixels
 # that are below or above the specified threshold value. In other words, if pixel value is greater
-# than a threshold value, it is assigned one value (may be white), else it is assigned another
-# value (may be black).
+# than a threshold value, it is assigned one value (maybe white), else it is assigned another
+# value (maybe black).
 
 import cv2
 import numpy as np
