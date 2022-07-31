@@ -6,7 +6,8 @@ def nothing(x):
     pass
 
 # Load image
-image = cv2.imread('orange.jpg')
+path = 'infectedleaf_segmented.png'
+image = cv2.imread(path)
 
 # Create a window
 cv2.namedWindow('image')
